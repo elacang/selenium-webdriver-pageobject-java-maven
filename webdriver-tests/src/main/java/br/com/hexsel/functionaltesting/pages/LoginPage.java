@@ -1,15 +1,16 @@
-package br.com.alltrade.functionaltesting;
+package br.com.hexsel.functionaltesting.pages;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-import br.com.alltrade.functionaltesting.configuration.ConfigurationProperties;
+import br.com.hexsel.functionaltesting.configuration.ConfigurationProperties;
+import br.com.hexsel.functionaltesting.core.PageElement;
+import br.com.hexsel.functionaltesting.core.PageObject;
 
 public class LoginPage extends PageObject {
 
-	private WebElement txtUsername;
-	private WebElement txtPassword;
-	private WebElement loginButton;
+	private PageElement txtUsername;
+	private PageElement txtPassword;
+	private PageElement loginButton;
 
 	public LoginPage(WebDriver driver) {
 		super(driver);

@@ -1,16 +1,8 @@
-package br.com.alltrade.functionaltesting;
+package br.com.alltrade.functionaltesting.test;
 
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends BaseFunctionalTest {
-
-	private LoginPage loginPage;
-
-	@BeforeMethod
-	public void setup() {
-		loginPage = new LoginPage(webDriver);
-	}
 
 	@Test
 	public void testShouldAccessLoginPage() {
@@ -19,7 +11,8 @@ public class LoginTest extends BaseFunctionalTest {
 
 	@Test(dependsOnMethods = { "testShouldAccessLoginPage" })
 	public void testShouldLoginAndLogoutSuccessfully() {
-		loginPage.open().login().logout();
+		loginPage.login().logout();
+		closeWindow();
 	}
 
 }

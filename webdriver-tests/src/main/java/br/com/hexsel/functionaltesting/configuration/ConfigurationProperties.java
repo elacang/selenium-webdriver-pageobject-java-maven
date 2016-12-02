@@ -1,4 +1,4 @@
-package br.com.alltrade.functionaltesting.configuration;
+package br.com.hexsel.functionaltesting.configuration;
 
 import java.io.InputStream;
 import java.util.Properties;
