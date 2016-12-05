@@ -1,4 +1,4 @@
-package br.com.alltrade.functionaltesting.test;
+package br.com.hexsel.functionaltesting.test;
 
 import static br.com.hexsel.functionaltesting.configuration.ConfigurationProperties.WEBDRIVER_CHROME_DRIVER;
 import static br.com.hexsel.functionaltesting.configuration.ConfigurationProperties.getConfigurations;

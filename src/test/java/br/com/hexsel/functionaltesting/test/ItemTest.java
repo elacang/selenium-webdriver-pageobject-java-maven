@@ -1,4 +1,4 @@
-package br.com.alltrade.functionaltesting.test;
+package br.com.hexsel.functionaltesting.test;
 
 import org.testng.annotations.Test;
 
