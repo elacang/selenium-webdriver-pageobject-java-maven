@@ -15,7 +15,11 @@ public class ConfigurationProperties {
 
 	private static ConfigurationProperties instance = null;
 
+	private String campo1 = "";
+
 	private Properties properties;
+	
+	private String campo2 = "";
 
 	private ConfigurationProperties() {
 		readProperties();
