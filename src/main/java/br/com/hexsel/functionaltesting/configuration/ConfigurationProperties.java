@@ -15,8 +15,6 @@ public class ConfigurationProperties {
 
 	private static ConfigurationProperties instance = null;
 
-	private String campo1 = "";
-
 	private Properties properties;
 	
 	private String campo2 = "";
@@ -58,8 +56,8 @@ public class ConfigurationProperties {
 	public String getTestsPassword() {
 		return getValue(TESTS_PASSWORD);
 	}
-	
-	public String getBaseAppUrl(){
+
+	public String getBaseAppUrl() {
 		return getValue(APP_BASE_URL);
 	}
 
